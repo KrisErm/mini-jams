@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b8504e19465748a233d83f27b4d4a3, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: Assembly-CSharp::MiniJam.JamConfig
+  hero: {fileID: 0}
+  guard: {fileID: 5352958571798197664, guid: c564c8c0d0cdc45429417f315e9f3e41, type: 3}
+  princess: {fileID: 1328023254706044480, guid: 257c304c754d3b247a51ef5bea7a90d0, type: 3}
+  castleExterior: {fileID: 0}
+  wallModule: {fileID: 919132149155446097, guid: 2b6d03e31e63c7e47a94fc42ab250a6b, type: 3}
+  floorModule: {fileID: 919132149155446097, guid: 9501d4b29a1b421468e968648a88aa47, type: 3}
+  doorwayModule: {fileID: 919132149155446097, guid: c98e75160b2f42142825552c9b9b7930, type: 3}
+  suppliedArt: 1
+  heroYaw: 0
+  guardYaw: 0
+  princessYaw: 0
+  idle: {fileID: 1827226128182048838, guid: 423aabfede0896f4db862ab8e54dde30, type: 3}
+  walk: {fileID: 1827226128182048838, guid: 0791e523b7f1b2740a3b1cde42b6aeac, type: 3}
+  attack: {fileID: 1827226128182048838, guid: db509ad77f9b4f84a8eb1989f589b24c, type: 3}
+  moveSpeed: 5.5
+  jumpHeight: 1.5
+  mouseSensitivity: 1
+  guardSpeed: 2.4
+  princessToRescue: "\u0420\u043E\u0437\u0430\u043B\u0438\u043D\u0434\u0430"
+  actualPrincess: "\u041C\u0430\u0440\u0433\u0430\u0440\u0438\u0442\u0430"
+  mistakenPrincessLine: "\u042F \u043D\u0435 \u0442\u0430 \u043F\u0440\u0438\u043D\u0446\u0435\u0441\u0441\u0430,
+    \u043A\u043E\u0442\u043E\u0440\u0443\u044E \u0442\u044B \u0438\u0441\u043A\u0430\u043B.
+    \u0418 \u043C\u0435\u043D\u044F \u0432\u043E\u043E\u0431\u0449\u0435 \u043D\u0438\u043A\u0442\u043E
+    \u043D\u0435 \u043F\u043E\u0445\u0438\u0449\u0430\u043B!"
+  cleaningBillLine: "\u0421 \u0442\u0435\u0431\u044F \u0443\u0431\u043E\u0440\u043A\u0430
+    \u0438 18 956 \u0437\u043E\u043B\u043E\u0442\u0430. \u0417\u0430 \u0441\u0442\u0440\u0430\u0436\u0443,
+    \u0440\u0435\u0448\u0451\u0442\u043A\u0438 \u0438 \u043C\u043E\u0440\u0430\u043B\u044C\u043D\u044B\u0439
+    \u0443\u0449\u0435\u0440\u0431."
